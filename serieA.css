@@ -83,11 +83,6 @@
     
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
 #tableClassement h1 {
     margin-left: 100px;
 }
@@ -125,4 +120,42 @@ body {
 
 #defaite {
     margin-left: 45px;
+}
+
+
+
+body {
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    color: rgba(240, 240, 240, 0.6);
+    background-color: #2C3E50;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 1890px;
+}
+
+a {
+    color: inherit;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+}
+
+#actif {
+    color: #FFF;
+}
+
+#ligne2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ligne1 {
+    display: flex;
+    justify-content: center;
 }
