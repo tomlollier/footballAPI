@@ -176,24 +176,6 @@ getCompetitionsStats = async (league_id) => {
     "victory": res["17"].overall_league_W,
     "fact": res["17"].overall_league_L,
     "null": res["17"].overall_league_D
-  },
-  {
-    "position": res["18"].overall_league_position ,
-    "day": res["18"].overall_league_payed,
-    "name": res["18"].team_name,
-    "point": res["18"].overall_league_PTS,
-    "victory": res["18"].overall_league_W,
-    "fact": res["18"].overall_league_L,
-    "null": res["18"].overall_league_D
-  },
-  {
-    "position": res["19"].overall_league_position ,
-    "day": res["19"].overall_league_payed,
-    "name": res["19"].team_name,
-    "point": res["19"].overall_league_PTS,
-    "victory": res["19"].overall_league_W,
-    "fact": res["19"].overall_league_L,
-    "null": res["19"].overall_league_D
   }
 ];
 
@@ -219,8 +201,6 @@ getCompetitionsStats = async (league_id) => {
   document.getElementById("15Name").innerHTML = classement["15"].name;
   document.getElementById("16Name").innerHTML = classement["16"].name;
   document.getElementById("17Name").innerHTML = classement["17"].name;
-  document.getElementById("18Name").innerHTML = classement["18"].name;
-  document.getElementById("19Name").innerHTML = classement["19"].name;
 
   document.getElementById("0Point").innerHTML = classement["0"].point;
   document.getElementById("1Point").innerHTML = classement["1"].point;
@@ -240,8 +220,6 @@ getCompetitionsStats = async (league_id) => {
   document.getElementById("15Point").innerHTML = classement["15"].point;
   document.getElementById("16Point").innerHTML = classement["16"].point;
   document.getElementById("17Point").innerHTML = classement["17"].point;
-  document.getElementById("18Point").innerHTML = classement["18"].point;
-  document.getElementById("19Point").innerHTML = classement["19"].point;
 
   document.getElementById("0Day").innerHTML = classement["0"].day;
   document.getElementById("1Day").innerHTML = classement["1"].day;
@@ -261,8 +239,6 @@ getCompetitionsStats = async (league_id) => {
   document.getElementById("15Day").innerHTML = classement["15"].day;
   document.getElementById("16Day").innerHTML = classement["16"].day;
   document.getElementById("17Day").innerHTML = classement["17"].day;
-  document.getElementById("18Day").innerHTML = classement["18"].day;
-  document.getElementById("19Day").innerHTML = classement["19"].day;
 
   document.getElementById("0Victory").innerHTML = classement["0"].victory;
   document.getElementById("1Victory").innerHTML = classement["1"].victory;
@@ -282,8 +258,6 @@ getCompetitionsStats = async (league_id) => {
   document.getElementById("15Victory").innerHTML = classement["15"].victory;
   document.getElementById("16Victory").innerHTML = classement["16"].victory;
   document.getElementById("17Victory").innerHTML = classement["17"].victory;
-  document.getElementById("18Victory").innerHTML = classement["18"].victory;
-  document.getElementById("19Victory").innerHTML = classement["19"].victory;
 
   document.getElementById("0Null").innerHTML = classement["0"].null;
   document.getElementById("1Null").innerHTML = classement["1"].null;
@@ -303,8 +277,6 @@ getCompetitionsStats = async (league_id) => {
   document.getElementById("15Null").innerHTML = classement["15"].null;
   document.getElementById("16Null").innerHTML = classement["16"].null;
   document.getElementById("17Null").innerHTML = classement["17"].null;
-  document.getElementById("18Null").innerHTML = classement["18"].null;
-  document.getElementById("19Null").innerHTML = classement["19"].null;
 
   document.getElementById("0Fact").innerHTML = classement["0"].fact;
   document.getElementById("1Fact").innerHTML = classement["1"].fact;
@@ -324,8 +296,5 @@ getCompetitionsStats = async (league_id) => {
   document.getElementById("15Fact").innerHTML = classement["15"].fact;
   document.getElementById("16Fact").innerHTML = classement["16"].fact;
   document.getElementById("17Fact").innerHTML = classement["17"].fact;
-  document.getElementById("18Fact").innerHTML = classement["18"].fact;
-  document.getElementById("19Fact").innerHTML = classement["19"].fact;
       
 }
-
